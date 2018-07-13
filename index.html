@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <link rel="stylesheet" href="css/main.css">
+  <title>Steve jobs</title>
+</head>
+
+<body class="container--body">
+
+  <!-- Header
+  ==================================== -->
+  <header class="container--header" >
+
+    <!-- Steve_Jobs_Image -->
+    <div class="container--header__image">
+      <img src="images/steve.jpg" alt="Steve_Jobs_image">
+    </div>
+
+    <!-- Back_Arrow_Button -->
+    <a href="#">
+      <div class="arrow--left__position flex">
+        <div id="arrow--back" class="arrow arrow--left" onmouseover="darken()" onmouseout="lighten()"></div>
+        <p id="btn--back" onmouseover="darken()" onmouseout="lighten()">Back</p>
+      </div>
+    </a>
+
+  </header>
+  <!-- Header__End
+  ==================================== -->
+
+  <!-- Main
+  ==================================== -->
+  <main class="container--main">
+
+    <!-- Main__Row-1
+    ==================================== -->
+    <div class="container--main__row-1 flex">
+      <h1 data-aos="fade-down-right" data-aos-duration="1300" class="title-large">Steve Jobs</h1>
+      <a data-aos="fade-down-left" data-aos-duration="1300" href="#" class="text-dots">...</a>
+    </div>
+
+    <!-- Main__Row-2
+    ==================================== -->
+    <div class="container--main__row-2 flex">
+
+      <!-- Follow_Button -->
+      <div data-aos="fade-in" data-aos-duration="1800" class="circle" id="circle-plus-toggle"   onclick="toggleOn()">
+        <a href="#">+</a>
+      </div>
+
+      <!-- Unfollow_Button -->
+      <a href="#">
+        <i class="fas fa-minus-circle" id="circle-minus-toggle" style="display:none" onclick="toggleOff(); "></i>
+      </a>
+
+      <p data-aos="fade-in" data-aos-duration="1800" id="follow">Follow</p>
+    </div>
+
+    <!-- Content_Divider -->
+    <div class="line--container">
+      <div class="container--main__line"></div>
+    </div>
+
+    <!-- Main__Row-3
+    ==================================== -->
+    <div class="container--main__row-3 flex">
+        <div data-aos="fade-in" data-aos-duration="700">
+          <p>313</p>
+          <p>Patents</p>
+        </div>
+
+        <div data-aos="fade-in" data-aos-duration="700">
+          <p>1M 50k</p>
+          <p>Followers</p>
+        </div>
+
+        <div data-aos="fade-in" data-aos-duration="700">
+          <p>361</p>
+          <p>Following</p>
+        </div>
+    </div>
+
+    <!-- Content_Divider -->
+    <div class="line--container" data-aos="fade-in" data-aos-duration="1000">
+        <div class="container--main__line"></div>
+    </div>
+
+    <!-- Main__Row-4
+    ==================================== -->
+    <div class="container--main__row-4" data-aos="fade-in" data-aos-duration="700">
+      <p>Categories</p>
+    </div>
+
+    <!-- Main__Row-5-6-7
+    ==================================== -->
+    <div class="container--main__row-5-6-7">
+
+      <!-- Wrapper -->
+      <div class="container--main__row-5-6-7-wrapper">
+
+        <!-- Wrapper_Content_1/3 -->
+        <div class="container--main__row-5-6-7-wrapper-content flex">
+          <h3 class="text--row-1">Electornic devices</h3><a href="#"><div class="arrow arrow--right"></div></a>
+        </div>
+
+        <!-- Content_Divider -->
+        <div class="container--main__line"></div>
+
+        <!-- Wrapper_Content_2/3 -->
+        <div class="container--main__row-5-6-7-wrapper-content flex">
+          <h3 class="text-row-2">Design</h3><a href="#"><div class="arrow arrow--right"></div></a>
+        </div>
+
+        <!-- Content_Divider -->
+        <div class="container--main__line"></div>
+
+        <!-- Wrapper_Content_3/3-->
+        <div class="container--main__row-5-6-7-wrapper-content flex">
+          <h3 class="text-row-3">Transportation</h3><a href="#"><div class="arrow arrow--right"></div></a>
+        </div>
+
+        <!-- Content_Divider -->
+        <div class="container--main__line"></div>
+      </div>
+
+    </div>
+
+  </main>
+  <!-- Main__End
+  ==================================== -->
+</body>
+<script src="js/main.js"></script>
+</html>
